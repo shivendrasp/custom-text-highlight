@@ -1,0 +1,43 @@
+.textContainer {
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  position: relative;
+  overflow: hidden;
+}
+
+.text {
+  position: relative;
+  color: #121212;
+}
+
+.customSelect {
+  background: radial-gradient(circle at 50% 50%, #ff5454 0%, #00e4ff 100%);
+  background-size: 300% 300%;
+  background-blend-mode: multiply;
+  animation: processing 4s linear infinite;
+  z-index: -1;
+}
+
+@keyframes processing {
+  0% {
+    background-position: 300% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* background: repeating-linear-gradient(
+  120deg,
+  #ffb700 0%,
+  #f85dbe 14%,
+  #661a39 24%, 
+  #2ad1e7 37%,
+  #ffed81 49%,
+  #00884c 62%,
+  #f85dbe 73%,
+  #ffb700 100%
+); */
