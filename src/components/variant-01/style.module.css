@@ -64,7 +64,6 @@
   z-index: -1;
   box-shadow: inset 0 0 16px 4px #6e6eff;
   backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
   mix-blend-mode: hard-light;
 }
 
